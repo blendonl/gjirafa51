@@ -2,16 +2,23 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.body {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
 .header {
   padding-top: 1em;
   padding-bottom: 1em;
   padding: 0;
   margin: 0;
+
+  border-bottom: solid #f7f7f7 1px;
 }
 .header .header-top,
 .header-main {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 .header .header-top {
   background-color: black;
@@ -33,11 +40,11 @@ body {
   background-color: #242424;
   border: none;
   margin-top: 1em;
+  position: relative;
 }
 
 .header .search input {
   width: 80%;
-  height: 100%;
   background-color: #242424;
   border: none;
   height: 100%;
@@ -50,23 +57,27 @@ body {
 
 .search #search-img {
   float: right;
-  margin-top: 0.2em;
+  margin-top: 0.5em;
   margin-right: 0.4em;
-  width: 2em;
+  width: 1.5em;
 }
 .header .user {
-  float: right;
+  float: left;
   color: white;
   font-size: large;
-  margin-top: 1em;
+  width: 10vw;
+  margin-top: 1vw;
+  margin-left: 50vw;
+  position: fixed;
 }
 .user #kyqu {
-  float: left;
   padding-right: 1em;
+  float: left;
   padding-top: 0.5em;
+  color: white;
 }
 .user #shporta {
-  float: right;
+  float: left;
   border-left: solid white 1px;
   border-right: solid white 1px;
   padding-left: 1em;
@@ -86,19 +97,20 @@ body {
 
 li {
   float: left;
-  border-right: solid #f7f7f7 1px;
+  border-right: solid #6d6d6d 1px;
   display: block;
   text-align: center;
 }
 
 .nav li {
-  padding: 1em;
   float: left;
   border-right: solid #f7f7f7 1px;
   display: block;
   text-align: center;
   padding-left: 1.3em;
   padding-right: 1.3em;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 .nav li:hover {
   background-color: #f7f7f7;
@@ -177,7 +189,6 @@ li {
   height: 2em;
   float: left;
   border: none;
-  color: #8d8d8d;
   text-align: center;
   background-color: #e8e8e8;
   padding-top: 0.5em;
