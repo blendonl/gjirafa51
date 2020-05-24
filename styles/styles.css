@@ -4,80 +4,76 @@ body {
 }
 
 .body {
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-.header {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding: 0;
-  margin: 0;
 
-  border-bottom: solid #f7f7f7 1px;
-}
-.header .header-top,
+.header-top,
 .header-main {
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.header {
+  border-bottom: solid #f7f7f7 1px;
+  width: 100%;
 }
 .header .header-top {
   background-color: black;
-  height: 5em;
+  padding-top: 1em;
+  display: flex;
+  margin: 0;
+  padding-bottom: 1em;
+  max-height: 7em;
 }
 .header #title {
-  float: left;
-  padding-left: 1em;
-  padding-right: 5%;
   color: white;
   font-size: xx-large;
   text-decoration: none;
-  padding-top: 0.5em;
+  display: flex;
+  margin-right: 2em;
+  margin-top: 0.4em;
 }
 
 .header .search {
-  float: left;
-  width: 35%;
+  width: 30%;
   background-color: #242424;
   border: none;
-  margin-top: 1em;
-  position: relative;
+  display: flex;
+  padding: 1em;
+  max-height: 4em;
 }
 
 .header .search input {
-  width: 80%;
+  width: 90%;
   background-color: #242424;
   border: none;
   height: 100%;
-  margin: 0.5em;
-  padding-right: 1em;
   font-size: large;
   color: white;
   float: left;
+  height: inherit;
 }
 
 .search #search-img {
   float: right;
-  margin-top: 0.5em;
-  margin-right: 0.4em;
   width: 1.5em;
 }
 .header .user {
-  float: left;
   color: white;
   font-size: large;
-  width: 10vw;
-  margin-top: 1vw;
-  margin-left: 50vw;
-  position: fixed;
+  display: inherit;
+  margin-left: 40%;
+  width: fit-content;
+  margin-top: 0.4em;
 }
 .user #kyqu {
   padding-right: 1em;
-  float: left;
   padding-top: 0.5em;
   color: white;
+  display: inline-flex;
 }
 .user #shporta {
-  float: left;
   border-left: solid white 1px;
   border-right: solid white 1px;
   padding-left: 1em;
@@ -85,14 +81,16 @@ body {
   width: 2em;
   height: 2em;
   padding-top: 0.5em;
+  display: inline-flex;
 }
 .nav {
   list-style-type: none;
   background-color: white;
   overflow: hidden;
   padding: 0;
-  margin: 0;
-  width: 100vw;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
 }
 
 li {
@@ -109,19 +107,13 @@ li {
   text-align: center;
   padding-left: 1.3em;
   padding-right: 1.3em;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .nav li:hover {
   background-color: #f7f7f7;
 }
-.img,
-.items,
-.header-main,
-.header-top {
-  padding-left: 20%;
-  padding-right: 20%;
-}
+
 .img #img-img1 {
   float: left;
   background-color: black;
