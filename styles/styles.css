@@ -18,61 +18,57 @@ body {
   border-bottom: solid #e2e2e2 1px;
   min-width: 100%;
 }
-.header .header-top {
+
+.header-top {
   background-color: black;
   padding-top: 1em;
   padding-bottom: 1em;
+  height: 5em;
   max-height: 5em;
+  display: flex;
 }
 .header .title {
   color: white;
   text-decoration: none;
   margin-right: 6em;
-  float: left;
+  font-size: 3rem;
   margin-top: 0.25em;
-  font-size: xx-large;
-  margin-bottom: auto;
-  margin-left: 1em;
 }
 
 .header .search {
   background-color: #242424;
   border: none;
-  display: inline-block;
   width: 40%;
+  max-height: 2em;
   padding: 1em;
-  max-height: 4em;
 }
 
 .header .search input {
-  width: 90%;
+  width: 95%;
   background-color: #242424;
   border: none;
   height: 100%;
   font-size: large;
   color: white;
-  display: inherit;
-  float: left;
-  height: inherit;
 }
 
 .search #search-img {
-  float: right;
-  display: inherit;
+  margin-left: auto;
   width: 1.5em;
 }
 .header .user {
   color: white;
-  font-size: large;
+  font-size: 1.5rem;
   width: fit-content;
-  float: right;
+  margin-left: auto;
+  margin-top: 0.5em;
+  display: inline-flex;
 }
 
 .user #kyqu {
   padding-right: 1em;
   padding-top: 0.5em;
   color: white;
-  display: inline-flex;
 }
 .user #shporta {
   border-left: solid white 1px;
@@ -82,7 +78,6 @@ body {
   width: 2em;
   height: 2em;
   padding-top: 0.5em;
-  display: inline-flex;
 }
 .nav {
   list-style-type: none;
@@ -118,17 +113,17 @@ li {
 
 .img {
   display: inline-block;
+  margin-top: -2em;
 }
 .img #img-img1 {
   background-color: black;
   width: 50%;
   float: left;
-  display: inherit;
+  border-top: solid orangered 3px;
   height: 20em;
 }
 .img #img-img2 {
   width: 40%;
-  display: inherit;
 }
 
 .body .slide-img {
@@ -170,32 +165,29 @@ li {
   border: 1px solid #e5e5e5;
   width: 20em;
   height: fit-content;
-  margin-right: 1em;
-  margin-bottom: 1em;
-  margin-left: 1em;
+
+  margin-left: 0.5em;
 }
 
 .items .m-items .item:hover {
-  width: 21em;
-  margin-left: 0.7em;
+  width: 20.3em;
+  margin-left: 0.4em;
 }
 .item-options {
   list-style-type: none;
   padding: 0;
   margin-bottom: 2em;
-  height: fit-content;
+  height: 2.5em;
   width: 100%;
+  display: inline-flex;
 }
 
 .items .m-items .item-options li {
-  height: 3em;
-  float: left;
+  height: 100%;
   border: none;
   text-align: center;
   background-color: #e8e8e8;
   padding-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 0.2em;
 }
 .items .m-items .item-options li:hover {
   background-color: chocolate;
@@ -205,17 +197,17 @@ li {
 .heart-link,
 .detajet-link,
 .shopping-cart-link {
-  padding: 0;
   width: 100%;
-  margin: 0;
 }
 .item-options-detajet {
-  width: 60%;
+  width: 95%;
+  margin: 0 0.5em;
 }
 
 .item-options-shporta,
 .item-options-heart {
   width: 17%;
+  margin-right: 0.2em;
 }
 
 .heart-img,

@@ -1,9 +1,10 @@
-.inputs {
-  margin-left: 2%;
+.content {
+  display: inline-flex;
 }
 
 #range-input1 {
   width: 45%;
+  margin-right: 1em;
 }
 
 #range-input2 {
@@ -11,23 +12,18 @@
 }
 
 #range {
-  margin-top: 1em;
-  width: 100%;
+  margin: 1em;
+  width: 90%;
 }
 
 .left {
-  float: left;
-  width: 15%;
+  width: 35%;
   border: 1px solid #dbdada;
-}
-
-inputs {
-  padding-left: 1em;
+  font-size: 1.1rem;
 }
 
 .right {
-  float: left;
-  width: 45vw;
+  width: 100%;
   margin-left: 2em;
 }
 
@@ -43,8 +39,8 @@ inputs {
 }
 
 .left-up {
-  margin-right: 1vw;
-  margin-left: 1vw;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 .items,
@@ -54,22 +50,36 @@ inputs {
 }
 
 .llojet {
-  height: 3em;
+  height: fit-content;
+  display: inline-flex;
+  width: 100%;
   padding-left: 0em;
 }
 
 .llojet li {
   border: 1px #dbdada solid;
   margin-right: 1em;
-  width: 6vw;
-  padding-top: 0.5em;
+  width: 12em;
+  height: 2em;
+  box-shadow: 2.5px 2.5px #dddddd;
+  margin-bottom: 2em;
+  padding-top: 1.5em;
   padding-bottom: 0.5em;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.llojet-link {
+  color: black;
+}
+.llojet-link:hover {
+  color: orangered;
 }
 
 #l1,
 .llojet {
   border-bottom: #dbdada 1px solid;
-  margin-top: 1vw;
+  margin-top: 1em;
 }
 
 .location {
@@ -77,8 +87,7 @@ inputs {
 }
 
 #l1 {
-  padding-bottom: 0.5em;
-  font-size: small;
+  padding: 1em 0.5em;
 }
 
 select {
@@ -90,8 +99,19 @@ select {
   border: none;
   padding-right: 1em;
   border-top: 1px #dbdada solid;
+
+  font-size: 1rem;
+  border-left: 1px #dbdada solid;
 }
 
 select option {
   width: 100%;
+}
+
+.number-inputs {
+  display: inline-flex;
+  margin-top: 1em;
+}
+#l2 {
+  margin-top: 1.5em;
 }

@@ -30,12 +30,14 @@
             <div id="kyqu">Kyqu</div>
           </a>
           <div id="shporta">
-            <img
-              src="../images/shopping-cart-white.svg"
-              alt=""
-              width="60%"
-              height="60%"
-            />
+            <a href="../order/order.html">
+              <img
+                src="../images/shopping-cart-white.svg"
+                alt=""
+                width="60%"
+                height="60%"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -55,79 +57,86 @@
     </div>
 
     <div class="body">
-      <div class="location" id="l1" style="color: #8a8a8a;">
-        Home -> Kompjuter, laptop
-      </div>
-
-      <div class="location" style="color: orangered; font-size: larger;">
+      <div class="location" id="l2" style="color: orangered; font-size: 2rem;">
         Kompjuter, laptop
       </div>
-      <div class="left">
-        <div class="left-up">
-          <p>Cmimi</p>
-          <div class="inputs">
-            <input type="number" name="" id="range-input1" />
-            <input type="number" name="" id="range-input2" />
-            <input type="range" name="" id="range" />
-          </div>
-        </div>
-        <div class="left-down">
-          <div class="dopdowns">
-            <select id="Prodhuesi">
-              <option value="Lenovo">Lenovo</option>
-              <option value="HP">HP</option>
-              <option value="Dell">Dell</option>
-            </select>
-            <select id="Ngjyra">
-              <option value="Zeze">Zeze</option>
-              <option value="HP">Argjend</option>
-              <option value="Hiri">Hiri</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="right">
-        <ul class="llojet">
-          <li>Aksesor</li>
-          <li>Kompjuter</li>
-          <li>Aksesor</li>
-          <li>Aksesor</li>
-          <li>Kompjuter</li>
-          <li>Kompjuter</li>
-        </ul>
+      <div class="content">
+        <div class="left">
+          <div class="left-up">
+            <p id="cmimi">Cmimi</p>
+            <div class="inputs">
+              <div class="number-inputs">
+                <input type="number" name="" id="range-input1" />
+                <input type="number" name="" id="range-input2" />
+              </div>
 
-        <div class="items">
-          <ul class="m-items">
-            <li class="item" id="item-1">
-              <div id="img">
-                <img class="item-img" src="../images/0.jpg" alt="" />
-              </div>
-              <div id="item-decription">
-                Laptop Apple MacBook Pro 2020 (Touch Bar), 13,3", Intel Core i5,
-                8GB RAM, 256GB SSD, Intel Iris Plus Graphics 645, i hirtë
-              </div>
-              <p id="item-cmimi">$$$</p>
-              <ul class="item-options">
-                <li class="item-options-detajet">
-                  <a class="detajet-link" href="">Shiko Detajet </a>
-                </li>
-                <li class="item-options-shporta">
-                  <a class="shopping-cart-link" href="">
-                    <img
-                      class="shopping-cart-img"
-                      src="../images/shopping-cart.svg"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li class="item-options-heart">
-                  <a class="heart-link" href="">
-                    <img class="heart-img" src="../images/heart.svg" alt="" />
-                  </a>
-                </li>
-              </ul>
-            </li>
+              <input type="range" name="" id="range" />
+            </div>
+          </div>
+          <div class="left-down">
+            <div class="dopdowns">
+              <select id="Prodhuesi">
+                <option value="Lenovo">Lenovo</option>
+                <option value="HP">HP</option>
+                <option value="Dell">Dell</option>
+              </select>
+              <select id="Ngjyra">
+                <option value="Zeze">Zeze</option>
+                <option value="HP">Argjend</option>
+                <option value="Hiri">Hiri</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <ul class="llojet">
+            <a href="../notfound/notfound.html" class="llojet-link"
+              ><li>Aksesor</li></a
+            >
+            <a href="../notfound/notfound.html" class="llojet-link"
+              ><li>Kompjuter</li></a
+            >
+            <a href="../notfound/notfound.html" class="llojet-link"
+              ><li>Aksesor</li></a
+            >
+            <a href="../notfound/notfound.html" class="llojet-link"
+              ><li>Aksesor</li></a
+            >
           </ul>
+
+          <div class="items">
+            <ul class="m-items">
+              <li class="item" id="item-1">
+                <div id="img">
+                  <img class="item-img" src="../images/0.jpg" alt="" />
+                </div>
+                <div id="item-decription">
+                  Laptop Apple MacBook Pro 2020 (Touch Bar), 13,3", Intel Core
+                  i5, 8GB RAM, 256GB SSD, Intel Iris Plus Graphics 645, i hirtë
+                </div>
+                <p id="item-cmimi">$$$</p>
+                <ul class="item-options">
+                  <li class="item-options-detajet">
+                    <a class="detajet-link" href="">Shiko Detajet </a>
+                  </li>
+                  <li class="item-options-shporta">
+                    <a class="shopping-cart-link" href="">
+                      <img
+                        class="shopping-cart-img"
+                        src="../images/shopping-cart.svg"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li class="item-options-heart">
+                    <a class="heart-link" href="">
+                      <img class="heart-img" src="../images/heart.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
