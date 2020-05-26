@@ -17,7 +17,7 @@
 }
 
 .left {
-  width: 35%;
+  width: 25em;
   border: 1px solid #dbdada;
   font-size: 1.1rem;
 }
@@ -40,7 +40,11 @@
 
 .left-up {
   margin-right: 0.5em;
-  margin-left: 0.5em;
+  margin-left: 1em;
+}
+
+.left-up input {
+  height: 2em;
 }
 
 .items,
@@ -59,13 +63,13 @@
 .llojet li {
   border: 1px #dbdada solid;
   margin-right: 1em;
-  width: 12em;
+  width: 20em;
   height: 2em;
   box-shadow: 2.5px 2.5px #dddddd;
   margin-bottom: 2em;
   padding-top: 1.5em;
   padding-bottom: 0.5em;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
