@@ -1,5 +1,6 @@
 .body {
-  background: #9e9d9d;
+  font-size: 1.25rem;
+  background-color: #9e9d9d;
 }
 
 .information {
@@ -49,6 +50,7 @@ input,
 select,
 option,
 button {
+  font-size: 1.25rem;
   background-color: #f7f7f7;
   border: 1px solid #cccccc;
 }

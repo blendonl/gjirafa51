@@ -1,0 +1,55 @@
+.body {
+  padding: 0;
+  margin: 0;
+  margin-left: 20vw;
+  display: inline-flex;
+}
+
+.left {
+  padding-right: 2em;
+  border-right: 1px solid #c9c9c9;
+}
+
+.right {
+  background-color: #f7f7f7;
+  margin-left: auto;
+  padding: 2em;
+  width: 44vw;
+}
+.prod {
+  height: 100vw;
+}
+.emertimet,
+.produktet {
+  display: inline-flex;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.produktet {
+  padding-top: 10em;
+  margin-top: 2em;
+  height: 20em;
+  padding-bottom: 1em;
+}
+
+.produkti,
+.cmimi,
+.sasia,
+.cmimi-total {
+  font-weight: bold;
+}
+
+.produkti {
+  width: 15vw;
+}
+
+.cmimi,
+.sasia,
+.cmimi-total {
+  margin-left: 1em;
+  width: 5vw;
+}
+
+.sasia {
+  max-height: 2.5em;
+}
