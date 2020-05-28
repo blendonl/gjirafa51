@@ -1,18 +1,19 @@
 .body {
   padding: 0;
   margin: 0;
+  width: 100%;
   margin-left: 20vw;
   display: inline-flex;
 }
 
 .left {
   padding-right: 2em;
+  padding-left: 4em;
   border-right: 1px solid #c9c9c9;
 }
 
 .right {
   background-color: #f7f7f7;
-  margin-left: auto;
   padding: 2em;
   width: 44vw;
 }
@@ -22,6 +23,7 @@
 .emertimet,
 .produktet {
   display: inline-flex;
+  margin-left: 2em;
   border-bottom: 1px solid #c9c9c9;
 }
 
@@ -40,14 +42,14 @@
 }
 
 .produkti {
-  width: 15vw;
+  width: 17vw;
 }
 
 .cmimi,
 .sasia,
 .cmimi-total {
   margin-left: 1em;
-  width: 5vw;
+  width: 7vw;
 }
 
 .sasia {
