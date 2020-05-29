@@ -1,6 +1,9 @@
+body {
+  background-color: #fdfdfd;
+}
+
 .body {
   font-size: 1.25rem;
-  background-color: #9e9d9d;
 }
 
 .information {
@@ -12,6 +15,7 @@
   width: 20vw;
   border: 1px solid #dadada;
   padding: 1vw;
+  background-color: white;
   margin-top: 5vw;
 }
 
@@ -66,6 +70,7 @@ button {
   border-top: 1px #cccccc solid;
   border-bottom: 1px #cccccc solid;
   padding: 1vw;
+  background-color: white;
   float: right;
   width: 30vw;
   margin-top: 10vw;
