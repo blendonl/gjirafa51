@@ -32,17 +32,20 @@ footer {
 }
 
 .produktet {
-  padding-top: 6em;
-  margin-top: 2em;
-  height: 10em;
+  height: 8em;
   font-size: 0.8rem;
   padding-bottom: 1em;
+}
+
+.produkt {
+  display: inline-flex;
+  margin-top: 2em;
+  width: 100%;
 }
 
 .produktet input {
   height: 1.5em;
   margin-right: 3.5em;
-  margin-top: 0.5em;
   width: 7em;
 }
 .emertimet {
@@ -106,4 +109,9 @@ footer {
   width: 20em;
   font-size: small;
   border-bottom: 1px dotted #777777;
+}
+
+.produkt p {
+  margin: 0;
+  margin-left: 1em;
 }
