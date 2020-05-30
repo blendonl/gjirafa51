@@ -1,0 +1,117 @@
+.body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  margin-left: 20vw;
+  display: inline-flex;
+}
+
+.left {
+  max-width: 40vw;
+  padding-right: 2em;
+  padding-left: 4em;
+  border-right: 1px solid #c9c9c9;
+}
+
+footer {
+  margin: 0;
+}
+
+.right {
+  background-color: #f7f7f7;
+  padding: 2em;
+  width: 32.4vw;
+  height: 92.7vh;
+  padding-right: 10%;
+}
+.emertimet,
+.produktet {
+  display: inline-flex;
+  margin-left: 2em;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.produktet {
+  height: 8em;
+  font-size: 0.8rem;
+  padding-bottom: 1em;
+}
+
+.produkt {
+  display: inline-flex;
+  margin-top: 2em;
+  width: 100%;
+}
+
+.produktet input {
+  height: 1.5em;
+  margin-right: 3.5em;
+  width: 7em;
+}
+.emertimet {
+  font-weight: bold;
+}
+
+.produkti {
+  width: 16vw;
+}
+
+.cmimi,
+.sasia,
+.cmimi-total {
+  margin-left: 1em;
+  width: 7vw;
+}
+
+.sasia {
+  max-height: 2.5em;
+}
+#emri {
+  margin-left: 0.5em;
+  display: inline-flex;
+  margin-right: 0.5em;
+}
+
+#button1,
+#button2 {
+  border: none;
+  background-color: #555555;
+  width: 10em;
+  border: 1px solid #555555;
+  border-radius: 0.2em;
+  color: white;
+  height: 2.5em;
+}
+
+#button3 {
+  margin-top: 1em;
+  height: 2.5em;
+  border: none;
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 0.2em;
+  color: white;
+  width: 20em;
+}
+
+.cmimi-t,
+.cmimi-nentotal {
+  display: inline-flex;
+  width: 16em;
+  color: #777777;
+}
+
+.cmimi-t {
+  font-weight: bold;
+}
+
+.cmimi-nentotal {
+  width: 20em;
+  font-size: small;
+  border-bottom: 1px dotted #777777;
+}
+
+.produkt p {
+  margin: 0;
+  margin-left: 1em;
+}

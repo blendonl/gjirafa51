@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Orders</title>
+    <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="order-style.css" />
   </head>
-  <body> <div class="header">
+  <body>
+    <div class="header">
       <div class="header-top">
         <div class="title">
           <a id="title" href="../index.html">
@@ -22,16 +23,16 @@
             id="search"
             value="search"
           />
-          <img src="../images/search.svg" alt="" id="search-img" />
+          <img src="../img/search.svg" alt="" id="search-img" />
         </div>
         <div class="user">
           <a href="../logins/signup.html">
-          <div id="kyqu">Kyqu</div>
-        </a>
+            <div id="kyqu">Kyqu</div>
+          </a>
           <a href="../order/order.html">
             <div id="shporta">
               <img
-                src="../images/shopping-cart-white.svg"
+                src="../img/shopping-cart-white.svg"
                 alt=""
                 width="60%"
                 height="60%"
@@ -53,5 +54,57 @@
           <a href="../notfound/notfound.html"><li>Cka ka tre?</li></a>
         </ul>
       </div>
+    </div>
+    <div class="body">
+      <div class="left">
+        <p style="font-size: 2.25rem; color: orangered; margin-bottom: 1em;">
+          Permbajtja e shportes <br />
+        </p>
+        <div class="prod">
+          <div class="emertimet">
+            <p class="produkti">Produkti</p>
+            <p class="cmimi">Cmimi per njesi</p>
+            <p class="sasia">Sasia</p>
+            <p class="cmimi-total">Cmimi total</p>
+          </div>
+          <br />
+          <div class="produktet">
+            <div class="produkt" id="produkti-1">
+              <div class="produkti" id="emri">
+                <img src="/img/buy-01.jpg" width="20%" height="50%" alt="" />
+                <p>
+                  Kompjuter HP Slimline 290-a0000nc, 4GB DDR4, 256GB SSD, AMD
+                  A4-9125, AMD Radeon R3, i zi
+                </p>
+              </div>
+              <p class="cmimi" id="cmimi">219.51$</p>
+              <input class="sasia" type="number" />
+              <p class="cmimi-total">219.51$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <p>GjirafaFlex</p>
+        <p>Mundesit e pagesave</p>
+        <div class="cmimi-nentotal">
+          <p>Nen totali</p>
+          <p style="margin-left: auto;">219.51$</p>
+        </div>
+        <div class="cmimi-t">
+          <p>Gjithsej Cmimi</p>
+          <p style="margin-left: auto; color: black;">219.51$</p>
+        </div>
+        <div class="button-up">
+          <input type="button" id="button1" value="Kthehy tek produktet" />
+          <input type="button" id="button2" value="Rillogarit" />
+        </div>
+        <input type="button" name="" id="button3" value="Vazhdo te pagesa" />
+      </div>
+    </div>
+
+    <footer>
+      <p>Gjirafa<span style="color: orangered;">51</span></p>
+    </footer>
   </body>
 </html>
