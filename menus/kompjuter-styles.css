@@ -1,5 +1,6 @@
 .content {
   display: inline-flex;
+  height: fit-content;
 }
 
 .body {
@@ -37,6 +38,7 @@
 .items {
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 
 .up {
@@ -61,15 +63,16 @@
 
 .llojet {
   height: fit-content;
-  display: inline-flex;
-  width: 100%;
+  display: inline-block;
+  max-width: 100%;
   padding: 0;
+  padding-left: 1em;
 }
 
 .llojet li {
   border: 1px #dbdada solid;
   margin-right: 1.5em;
-  width: 12em;
+  width: 11em;
   height: 1.5em;
   box-shadow: 2.5px 2.5px #dddddd;
   margin-bottom: 2em;
